@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <title> Flask Task</title>
 </head>
-<body style="background-color:yellow">
+<body style="background-color:maroon">
  <table>
-        <thead>
-            <tr>
-                <th>NAME</th>
-                <th>AGE</th>
-            </tr>
-        </thead>
-        <tbody>
+     <thead>
+        <tr>
+            <th style="font-family: sans-serif; color:yellow; font-size:200%; ">NAME</th>
+
+            <th style="font-family: sans-serif; color:yellow; font-size:200%;">AGE</th>
+        </tr>
+     </thead>
+        <tbody style="font-family: sans-serif; color:yellow; font-size:150%; text-align:center;">
             {% for data in table %}
                 <tr>
                     <td>{{data}}</td>
